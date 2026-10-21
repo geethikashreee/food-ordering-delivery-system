@@ -28,7 +28,7 @@ const nice = s => String(s || '').replace(/_/g, ' ').toLowerCase()
 
 const foodImages = {
   biryani: 'photo-1563379091339-03246963d96c',
-  pizza: 'photo- pizza',
+  pizza: 'photo-1579751626657-72bc17010498',
   burger: 'photo-1568901346375-23c9450c58cd',
   dosa: 'photo-1589301760014-d929f3979dbc',
   cake: 'photo-1578985545062-69928b1d9587',
