@@ -61,3 +61,8 @@ This application includes server-side authentication and database APIs. GitHub P
 `.env.local`, database passwords, runtime data, dependencies and build output are excluded from version control. The committed `.env.example` contains placeholders only.
 
 Foodly uses a demo menu and demo fulfilment stages. No real restaurant, payment processor or courier service is contacted. Email verification and password recovery are not configured.
+
+
+## Railway deployment
+
+See [Deploy Foodly on Railway](DEPLOY-RAILWAY.md). The included railway.json configures the build, database setup, server startup and readiness check.
