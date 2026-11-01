@@ -1,0 +1,3 @@
+import {Bike,LayoutDashboard,ChartNoAxesCombined,Clock3,Coffee,Flame,Leaf,PartyPopper,Pizza,Recycle,Salad,Sparkles,Star,Trophy,Users,Utensils,Zap,type LucideIcon} from 'lucide-react';
+const icons:Record<string,LucideIcon>={dashboard:LayoutDashboard,bike:Bike,chart:ChartNoAxesCombined,clock:Clock3,coffee:Coffee,flame:Flame,leaf:Leaf,party:PartyPopper,pizza:Pizza,recycle:Recycle,salad:Salad,sparkles:Sparkles,star:Star,trophy:Trophy,users:Users,utensils:Utensils,zap:Zap};
+export function FoodlyIcon({name,size=19}:{name:string;size?:number}){const Icon=icons[name]||Utensils;return <Icon size={size} aria-hidden="true"/>;}

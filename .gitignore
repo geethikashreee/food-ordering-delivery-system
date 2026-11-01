@@ -1,6 +1,16 @@
 node_modules/
-**/node_modules/
-.env
-.env.*
+.next/
+out/
+coverage/
+*.tsbuildinfo
+.env*
 !.env.example
-dist/
+.mysql/
+.test/
+*.pem
+*.key
+*.log
+.DS_Store
+
+# Local interface validation output
+tests/.compiled/

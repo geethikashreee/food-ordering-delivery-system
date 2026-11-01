@@ -1,0 +1,7 @@
+{
+  "folders": [{"name": "Foodly — full-stack source", "path": "."}],
+  "settings": {
+    "files.exclude": {"**/node_modules": true, "**/dist": true, "**/.wrangler": true, "**/.sites-runtime": true, "**/.vinext": true},
+    "search.exclude": {"**/node_modules": true, "**/dist": true, "**/.wrangler": true, "**/.sites-runtime": true}
+  }
+}

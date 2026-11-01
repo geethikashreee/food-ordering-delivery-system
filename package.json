@@ -1,0 +1,38 @@
+{
+  "name": "foodly-mysql",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "node scripts/run-next.mjs dev",
+    "build": "next build --webpack",
+    "start": "node scripts/run-next.mjs start",
+    "typecheck": "tsc --noEmit",
+    "db:generate": "drizzle-kit generate",
+    "db:setup": "node scripts/setup-mysql.mjs",
+    "db:check": "node scripts/check-mysql.mjs",
+    "test:interface": "node tests/interface-checks.mjs",
+    "test": "npm run test:interface",
+    "db:reports": "node scripts/setup-order-history.mjs"
+  },
+  "dependencies": {
+    "next": "16.3.4",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "lucide-react": "1.31.0",
+    "drizzle-orm": "0.45.2",
+    "mysql2": "3.24.6",
+    "dotenv": "18.0.9",
+    "server-only": "0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3",
+    "drizzle-kit": "0.31.10"
+  }
+}
